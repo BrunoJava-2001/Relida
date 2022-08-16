@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReLida</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/faviconn.ico" type="image/x-icon">
+  
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/logo_black-m.jpg" alt="Logo ReLida">
+        <div><h1 id="NomeLogo">  Re <p style="color: rgba(204, 204, 204, 1);"> <br>  Lida  </p></h1></div>
+        <a id="Login" href="#"><img src="imagens/login_icon.png" alt="Login">Login</a>
+    </header>
+
+    <!--Barra de navegação-->
+    <div class="nav">
+        <div class="menu_suspenso">
+            <button class="botao_d_naveg"> MENU </button>
+          <div class="menu_suspenso-conteudo">
+
+            
+            <div class="menu_suspenso2">
+                <button class="botao_d_naveg2"> CATÁLOGO </button>
+                <div style="position:absolute; left:270px; top:0px;" class="menu_suspenso-conteudo2">
+                  <a href="#">Romance</a>
+                  <a href="#">Drama</a>
+                  <a href="#">Auto Ajuda</a>
+                  <a href="#">Bíblico</a>
+                  <a href="#">Infanto Juvenil</a>
+                  <a href="#">Fantasia</a>
+                  <a href="#">Doação</a>
+                  <a href="#">Troca</a>
+                </div>
+                <a href="#">CARRINHO</a>
+                <a href="#">CADASTRAR LIVROS</a>
+                <a href="#">MEUS PEDIDOS</a>
+            </div>
+          </div>
+        </div>
+        
+        <a href="#">OFERTAS</a>
+
+        <div class="menu_suspenso">
+          <button class="botao_d_naveg"> PERFIL </button>
+          <div class="menu_suspenso-conteudo">
+            <a href="#">MEU PERFIL</a>
+            <a href="#">EDITAR PERFIL</a>
+          </div>
+        </div> 
+
+        <a href="#">QUEM SOMOS</a>
+
+        <div class="menu_suspenso">
+            <button class="botao_d_naveg"> LOGIN </button>
+            <div class="menu_suspenso-conteudo">
+              <a href="#">ENTRAR</a>
+              <a href="#">CADASTRAR</a>
+            </div>
+          </div>
+
+    </div>
+
+
+    
+    <main>
+
+        <h1 id="Title1">  MAIS VISTOS </h1>
+
+        <section id="ViewTitle1">
+            <div class="container" style="margin: 100px 100px; width: 100%; justify-content: center;">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="carousel slide multi-item-carousel" id="theCarousel1">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/1.jpg" class="img-responsive"></a></a></div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/2.jpg" class="img-responsive"></a></a></div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/3.jpg" class="img-responsive"></a></a></div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/4.jpg" class="img-responsive"></a></a></div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/5.jpg" class="img-responsive"></a></a></div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/6.jpg" class="img-responsive"></a></a></div>
+                        </div>
+                        <!-- add  more items here -->
+                        <!-- Example item start:  -->
+              
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/7.jpg" class="img-responsive"></a></a></div>
+                        </div>
+              
+                        <!--  Example item end -->
+                      </div>
+                      <a class="left carousel-control" style="width: 10px;" href="#theCarousel1" data-slide="prev"><i class="glyphicon glyphicon-chevron-left" style="background-color: rgba(243, 119, 6, 1); left: 0px;"></i></a>
+                      <a class="right carousel-control" style="width: 10px;" href="#theCarousel1" data-slide="next"><i class="glyphicon glyphicon-chevron-right" style="background-color: rgba(243, 119, 6, 1); right: 0px;"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    
+
+    <h1 id="Title2"> ADICIONADOS RECENTEMENTE </h1>
+
+    <section id="ViewTitle2">
+      <div class="container" style="margin: 100px 100px; width: 100%; justify-content: center;">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide multi-item-carousel" id="theCarousel2">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/4.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/5.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/6.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/7.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/8.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/9.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <!-- add  more items here -->
+                <!-- Example item start:  -->
+      
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/7.jpg" class="img-responsive"></a></a></div>
+                </div>
+      
+                <!--  Example item end -->
+              </div>
+              <a class="left carousel-control" style="width: 10px;" href="#theCarousel2" data-slide="prev"><i class="glyphicon glyphicon-chevron-left" style="background-color: rgba(243, 119, 6, 1); left: 0px;"></i></a>
+              <a class="right carousel-control" style="width: 10px;" href="#theCarousel2" data-slide="next"><i class="glyphicon glyphicon-chevron-right" style="background-color: rgba(243, 119, 6, 1); right: 0px;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <h1 id="Title3"> TROCAS </h1>
+
+    <section id="ViewTitle3">
+      <div class="container" style="margin: 100px 100px; width: 100%; justify-content: center;">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide multi-item-carousel" id="theCarousel3">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/7.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/8.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/9.jpg" class="img-responsive"></a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/10.jpg" class="img-responsive"</a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/11.jpg" class="img-responsive"</a></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/12.jpg" class="img-responsive"</a></a></div>
+                </div>
+                <!-- add  more items here -->
+                <!-- Example item start:  -->
+      
+                <div class="item">
+                  <div class="col-xs-4"><a href="#1"><a href="#"><img class="livr" src="imagens/livros/13.jpg" class="img-responsive"</a></a></div>
+                </div>
+      
+                <!--  Example item end -->
+              </div>
+              <a class="left carousel-control" style="width: 10px;" href="#theCarousel3" data-slide="prev"><i class="glyphicon glyphicon-chevron-left" style="background-color: rgba(243, 119, 6, 1); left: 0px;"></i></a>
+              <a class="right carousel-control" style="width: 10px;" href="#theCarousel3" data-slide="next"><i class="glyphicon glyphicon-chevron-right" style="background-color: rgba(243, 119, 6, 1); right: 0px;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    </main>
+
+    <div style="display:flex; position: relative; bottom: 70px;">
+    <img style="position : absolute; right: 0px;" src="imagens/canto.png" alt="rodape">
+    </div>
+
+    <footer>
+        <div class="address">
+            <p>relida.com.br Serviços Ltda - CNPJ 00.000.000/0000-00 <br> Rua Gervásio Pires, 234 | Boa
+               Vista | CEP 50050-070 <br><a href="http:gmail.com"> Fale conosco: devsprojetofinal@gmail.com </a></p>
+          </div>
+    </footer>
+
+
+    
+    <!--Código JavaScript para slider-->
+    <script type="text/javascript">
+        // Instantiate the Bootstrap carousel
+      $('.multi-item-carousel').carousel({
+        interval: false
+      });
+      
+      // for every slide in carousel, copy the next slide's item in the slide.
+      // Do the same for the next, next item.
+      $('.multi-item-carousel .item').each(function(){
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+      
+        if (next.next().length>0) {
+          next.next().children(':first-child').clone().appendTo($(this));
+        } else {
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+        }
+      });
+      </script>
+
+
+</body>
+</html>
